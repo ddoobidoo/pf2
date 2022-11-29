@@ -1,0 +1,69 @@
+/* 하단 */
+footer{
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 15px;
+}
+footer .wrap{
+  width: 1440px;
+  margin: 0 auto;
+  border: 3px solid #999;
+  border-top-color: rgb(153, 153, 153);
+  border-top-style: solid;
+  border-top-width: 3px;
+  box-sizing: border-box;
+  border-top: transparent;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+}
+footer .wrap h1{
+  margin-top: 0;
+  margin-left: 35px;
+}
+footer .wrap h1 a{
+  font-size: 0;
+  background-image: url(../img/logo.svg);
+  width: 80px;
+  height: 80px;
+  display: block;
+  margin-top: 0;
+}
+footer .wrap h1 a{
+  
+}
+footer .wrap address{  
+  width: 65%;
+  display: flex;
+  /*! gap: 12px; */
+}
+footer .wrap address strong{  
+  font-weight: 600;
+  margin-right: 10px;
+}
+footer .wrap address strong:nth-child(n+2){ /* 2번째 3번째에만 적용 */
+  margin-left: 20px;
+}
+footer .wrap p{
+    
+}
+footer .wrap p.copyright{
+  position: absolute;
+  left: 137px;
+  top: 85px;
+  line-height: 1;
+  font-weight: 400;
+}
+footer .wrap p.tel{  
+  line-height: 1;
+  display: flex;
+  gap: 10px;
+  margin-right: 35px;
+  /*! padding-right: 35px; */
+}
+footer .wrap p.tel strong{  
+  font-size: 40px;
+  vertical-align: top;
+  line-height: 0.7;
+  font-weight: 600;
